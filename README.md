@@ -6,9 +6,9 @@ The arcade hub is designed like an old-school gaming console, and more classic m
 
 Features:
 
-Retro neon-themed UI 🎨
+Retro neon-themed UI 
 
-Snake game with score system 🐍
+Snake game with score system 
 
 Smooth animations + pixel vibes
 
