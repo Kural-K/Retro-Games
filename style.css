@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      margin: 0;
+      background: black;
+      color: #9be7ec;
+      font-family: 'Press Start 2P', cursive;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .title {
+      font-size: 2rem;
+      margin-top: 30px;
+      text-shadow: 0 0 10px #9be7ec;
+    }
+
+    .menu {
+      margin: 40px 0;
+    }
+
+    .menu a {
+      display: inline-block;
+      margin: 15px;
+      padding: 10px 20px;
+      border: 2px solid #9be7ec;
+      color: #9be7ec;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .menu a:hover {
+      background: #9be7ec;
+      color: black;
+      box-shadow: 0 0 20px #9be7ec;
+    }
+
+    .game-section {
+      display: none;
+      margin-top: 20px;
+    }
+
+    /* Snake Game Canvas */
+    #gameCanvas {
+      border: 2px solid #9be7ec;
+      background: black;
+      margin-top: 20px;
+    }
+
+    .score {
+      margin-top: 15px;
+      font-size: 1rem;
+    }
+
+    .btn {
+      margin-top: 15px;
+      padding: 8px 15px;
+      background: #9be7ec;
+      border: none;
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    .btn:hover {
+      background: black;
+      color: #9be7ec;
+      border: 2px solid #9be7ec;
+    }
+
+    /* Start screen */
+    #startScreen {
+      margin-top: 20px;
+      font-size: 1rem;
+      color: #9be7ec;
+      text-shadow: 0 0 8px #9be7ec;
+    }   
